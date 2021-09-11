@@ -9,7 +9,7 @@
      if (notes == null) {
          notesObj = [];
      } else {
-         notesObj = JSON.parse(notes);
+         notesObj = JSON.parse(notes);    
      }
      notesObj.push(addTxt.value);
      localStorage.setItem("notes", JSON.stringify(notesObj));
